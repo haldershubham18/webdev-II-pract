@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function App() {
+function form() {
   const [name, setName] = useState("")
 
   function handleChange(e) {
@@ -32,4 +32,4 @@ function App() {
   )
 }
 
-export default component_FH
+export default form

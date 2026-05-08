@@ -40,7 +40,7 @@ function Contact() {
   )
 }
 
-function App() {
+function Apps() {
   return (
     <BrowserRouter>
       <Navbar />
@@ -55,4 +55,8 @@ function App() {
   )
 }
 
-export default App
+export default Home
+export default About
+export default Contact
+export default Apps
+export default Navbar

@@ -1,11 +1,18 @@
 import './App.css'
-import RouterApp from './componentrouter'
-import RouterApp from './component_FH'
-import component_FH from './component_FH'
+import Home from "./componentrouter"
+import About from "./componentrouter"
+import Navbar from "./componentrouter"
+import Apps from "./componentrouter"
+import Contact from "./componentrouter"
 
-function App()
-return{
-<component_FH></component_FH>
-<componentrouter></componentrouter>
+import form from './component_FH'
+
+
+function App(){
+  return(
+    <>
+    <component_FH></component_FH>
+<componentrouter></componentrouter></>
+  )
 }
 export default App
